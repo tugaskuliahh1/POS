@@ -1,13 +1,14 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-class HomeController extends Controller
+class SalesController extends Controller
 {
     public function index()
     {
-        return view('home');
+        return view('sales.index');
     }
 }
